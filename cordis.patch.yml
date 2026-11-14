@@ -1,0 +1,5 @@
+# A bundle row for this package itself. The loader imports the package root,
+# whose `name`/`inject`/`apply` exports register the paper tools.
+- insert:
+    - id: paper-vault
+      name: 'dsh-paper-vault'
