@@ -53,6 +53,12 @@ dsh plugin add https://github.com/lazy-fur2025/dsh-paper-vault
 dsh plugin add https://github.com/lazy-fur2025/dsh-paper-vault/releases/download/v0.1.2/dsh-paper-vault-0.1.2.tgz
 ```
 
+中国大陆网络访问 GitHub 下载慢时，用 jsDelivr 的同一份 tarball：
+
+```sh
+dsh plugin add https://cdn.jsdelivr.net/gh/lazy-fur2025/dsh-paper-vault@main/dist/dsh-paper-vault-0.1.2.tgz
+```
+
 本地打包：
 
 ```sh
